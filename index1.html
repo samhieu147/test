@@ -1,135 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title> Document </title>
-    <meta charset="utf-8" >
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Literata|Roboto&display=swap" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="container">
             <a href="">
-                <img src="img/logo.png" alt=""> 
+                <img src="img/logo.png" alt="">
             </a>
             <nav class="main-nav">
-            <ul class="main-nav__list">
-                <li class="main-nav__item" ><a href="" class="main-nav__link"></a> portfolio</li>
-                <li class="main-nav__item" ><a href=""  class="main-nav__link"></a> out me</li>
-                <li class="main-nav__item" ><a href=""  class="main-nav__link"></a> contact me</li>
-            </ul>
+                <ul class="main-nav__list">
+                    <li class="main-nav__item"><a href="" class="main-nav__link">portfolio</a></li>
+                    <li class="main-nav__item"><a href="" class="main-nav__link">about me</a></li>
+                    <li class="main-nav__item"><a href="" class="main-nav__link">contect me</a></li>
+
+                </ul>
             </nav>
         </div>
     </header>
 
-    <section >
-        <div class="container">
-            <div class="banner"> 
-                <div class="section__title">
-                    <h2> I'm a Graphic/Web Designer based in Philippines</h2>
+    <div class="banner flexslider ">
+        <ul class="slides">
+            <li>
+                <div class="container">
+                    <h1 class="banner__title">I’m a Graphic / Web Designer based in Philippines</h1>
+                    <p class="banner__desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+                        auctor
+                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                        sagittis sem
+                        nibh id elit. </p>
+                    <a href="#" class="banner__btn">Hire Me</a>
                 </div>
-                <div class="section-body">
-                    <span> This is Photoshop's version  of Lorem Ipsum. 
-                        Proin gravida nibh vel velit auctor aliquet.
-                        nean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </span>
-                    <div class="btn_banner">
-                        <a href="" class="banner_btn"> Hire Me</a>
-                    </div>
+            </li>
+            <li>
+                <div class="container">
+                    <h1 class="banner__title">I’m a Graphic / Web Designer based in Philippines</h1>
+                    <p class="banner__desc">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                        aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                        nibh id elit. </p>
+                    <a href="#" class="banner__btn">Hire Me</a>
                 </div>
-            </div>
-        </div>
-    </section>
+            </li>
+        </ul>
+    </div>
 
-    <section class="latest-project" >
+    <!-- Place somewhere in the <body> of your page -->
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="img/logo.png" />
+            </li>
+            <li>
+                <img src="img/logo.png" />
+            </li>
+            <li>
+                <img src="img/logo.png" />
+            </li>
+            <li>
+                <img src="img/logo.png" />
+            </li>
+        </ul>
+    </div>
+
+    <section class="latest-project">
         <div class="container">
             <div class="section-heading">
-                <h3 class="section-heading__title"> My Latest Project</h3>
+                <h2 class="section-heading__title">My Latest Project</h2>
             </div>
-            <div class="section-body">
+            <div class="section-body latest-project-body">
                 <div class="row">
                     <div class="project-item">
-                        <img src="
-                        https://dummyimage.com/150x90/000/fff" alt="">
-                        <h4> 1WD.TV Project</h4>
-                        <em> Web design, Freelance</em>
+                        <div class="project-item__img">
+                            <a href="#">
+                                <img src="https://dummyimage.com/600x400/000/fff" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <h4 class="project-item__title"><a class="project-item__link" href="">1WD.TV Project</a></h4>
+                        <span class="project-item__type">Web design, Freelance</span>
                     </div>
                     <div class="project-item">
-                        <img src="
-                        https://dummyimage.com/150x90/000/fff" alt="">
-                        <h4> 1WD.TV Project</h4>
-                       <em> Web design, Freelance</em>
+                        <div class="project-item__img">
+                            <a href="#">
+                                <img src="https://dummyimage.com/600x400/000/fff" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <h4 class="project-item__title"><a a class="project-item__link" href="">1WD.TV Project</a></h4>
+                        <span class="project-item__type">Web design, Freelance</span>
                     </div>
-                      <div class="project-item">
-                        <img src="
-                        https://dummyimage.com/150x90/000/fff" alt="">
-                        <h4> 1WD.TV Project</h4>
-                        <em> Web design, Freelance</em>
+                    <div class="project-item">
+                        <div class="project-item__img">
+                            <a href="#">
+                                <img src="https://dummyimage.com/600x400/000/fff" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <h4 class="project-item__title"><a a class="project-item__link" href="">1WD.TV Project</a></h4>
+                        <span class="project-item__type">Web design, Freelance</span>
                     </div>
                 </div>
-            </div>   
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-        <div class="row">
-            <div class="col">
-                <section class="about">
-                    <div class="section-heading">
-                        <h3 class="section-heading__title">About Me</h3>
-                    </div>
-                    <div class="section-body">
-                       <p> This is Photoshop's version  of Lorem Ipsum. 
-                           Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, 
-                           nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
-                       <p> Nam nec tellus a odio tincidunt auctor a ornare odio. 
-                           Sed non  mauris vitae erat consequat auctor eu in elit. 
-                           Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                           per inceptos himenaeos. Mauris in erat justo. Nullam ac urna
-                           eu felis dapibus condimentum sit amet a augue. </p>
-                       <div class="social">
-                          <i class="fab fa-facebook"></i>
-                          <i class="fab fa-twitter"></i>
-                          <i class="fas fa-wifi"></i>
-                       </div>
-                    </div>
-                </section>
-            </div>
-
-             <div class="col">
-                <section class="new">
-                    <div class="section-heading">
-                        <h3 class="section-heading__title">What's New</h3>
-                    </div>
-                    <div class="section-body">
-                        <div class="what-new-item">
-                            <div><img src=" https://dummyimage.com/150x90/000/fff"" alt=""></div>
-                            <div class="what-new-content">
-                                <h4> This is Photoshop's version  of Lorem Ipsum.  </h4>
-                                <div class="what-new-meta">
-                                    <p> Web Design -<span> January 28, 2013 </span>  - Admin</p>
-                                </div>
+            <div class="row">
+                <div class="col">
+                    <section>
+                        <div class="section-heading">
+                            <h2 class="section-heading__title">About</h2>
+                        </div>
+                        <div class="section-body">
+                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+                                sem nibh id elit. </p>
+                            <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat
+                                auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                                per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus
+                                condimentum sit amet a augue. </p>
+                            <div class="social">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
                             </div>
                         </div>
-                        <div class="what-new-item">
-                            <div><img src=" https://dummyimage.com/150x90/000/fff"" alt=""></div>
+                    </section>
+                </div>
+                <div class="col">
+                    <section class="what-new">
+                        <div class="section-heading">
+                            <h2 class="section-heading__title">What’s New?</h2>
+                        </div>
+                        <div class="section-body">
+                            <div class="what-new-item">
+                                <div> <img src="https://dummyimage.com/155x95/000/fff" alt=""></div>
                                 <div class="what-new-content">
-                                    <h4> This is Photoshop's version  of Lorem Ipsum.  </h4>
+                                    <h4 class="what-new__title"><a href="#">This is Photoshop's version of Lorem Ipsum.
+                                        </a></h4>
                                     <div class="what-new-meta">
-                                        <p> Web Design -<span> January 28, 2013 </span>  - Admin</p>
+                                        <a href="#">Web Design</a> <span>- January 28, 2013 -</span> <a
+                                            href="#">Admin</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End .what-new-item-->
+                            <div class="what-new-item">
+                                <div> <img src="https://dummyimage.com/155x95/000/fff" alt=""></div>
+                                <div class="what-new-content">
+                                    <h4 class="what-new__title"><a href="#">This is Photoshop's version of Lorem Ipsum.
+                                        </a></h4>
+                                    <div class="what-new-meta">
+                                        <a href="#">Web Design</a> <span>- January 28, 2013 -</span> <a
+                                            href="#">Admin</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                </section>
+                    </section>
+                </div>
             </div>
         </div>
-    </div>
     </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"> </script>
+    <script>
+        // Can also be used with $(document).ready()
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide"
+            });
+        });</script>
 </body>
+
 </html>
